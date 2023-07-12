@@ -12,7 +12,7 @@ export default function SaleCard() {
           <div className={styles.percent}>-20%</div>
           <div className={styles.price}>
             <p className={styles.fullprice}>R$99,90</p>
-            <h4 className={styles.discountprice}>R$89,90</h4>
+            <h4 className={styles.discountprice}>R$79,90</h4>
           </div>
         </div>
         <Button>Adicionar ao carrinho</Button>
