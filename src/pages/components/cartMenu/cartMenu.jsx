@@ -2,11 +2,12 @@ import styles from './cartMenu.module.css'
 import CartOption from '../cartOption/cartOption'
 
 export default function CartMenu({cart, onRemove}) {
+  console.log(cart)
   return (
     <div className={styles.menu}>
       <div className={styles.options}>
         {
-          cart.length === 0 && <p>Nenhum produto no seu carrinho</p>
+          cart.length == 0 && <p>Nenhum produto no seu carrinho</p>
         }
         {
           cart.map((cartInfo, positionCart) => 
