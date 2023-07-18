@@ -7,7 +7,7 @@ export default function CartMenu({cart, onRemove}) {
     <div className={styles.menu}>
       <div className={styles.options}>
         {
-          cart.length == 0 && <p>Nenhum produto no seu carrinho</p>
+          cart.length === 0 && <p>Nenhum produto no seu carrinho</p>
         }
         {
           cart.map((cartInfo, positionCart) => 
